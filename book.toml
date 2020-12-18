@@ -1,0 +1,6 @@
+[book]
+authors = ["UZH DBTG and Info-2 Students"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Informatics - 2 Cheatsheet at University of Zurich"
