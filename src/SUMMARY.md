@@ -10,7 +10,7 @@
 
 - [Input, Output and Files]()
 
-- [Arrays]()
+- [Arrays](./prerequisite/arrays.md)
   
 - [Pointers]()
 
