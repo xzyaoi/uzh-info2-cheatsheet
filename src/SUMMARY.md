@@ -2,6 +2,10 @@
 
 - [Preface](./preface.md)
 
+# Tutorials
+
+- [Installation](./tutorials/installation.md)
+
 # C/C++ Prerequisite
 
 - [Compiler](./prerequisite/compiler.md)
