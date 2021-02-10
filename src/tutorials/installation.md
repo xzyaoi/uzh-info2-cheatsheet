@@ -1,7 +1,5 @@
 # Installation of C Compiler
 
-
-
 Just like in the Info-1 course, you will need a compiler to finish the exercises (and exams) for Info-2, but we need a compiler for ```C``` this time. In this tutorial, we will provide some instructions on how to set up your compiler, and how to use its basic functions.
 
 ## Windows Users
@@ -37,4 +35,31 @@ You can then press ```F11```, or click the ```Execute->Compile & Run ``` button 
 
 ![image-20210210004145937](./../images/install_windows_4.png)
 
-If you see the same thing with me, then you are good to go.
+If you see the same thing with me, then congratulations, you are good to go!
+
+## Mac OS/Linux Users
+
+If you are using Mac OS or Linux (e.g. Ubuntu, Fedora, etc), then you should already have ```gcc``` installed, which is one of the most popular ```c``` compiler. In order to check this, type ```gcc -v``` in your terminal.
+
+On Mac OS, you should be able to see:
+
+![](../images/install_macos_1.png)
+
+On Linux, you should be able to see:
+
+![](../images/install_linux_1.png)
+
+As long as you are not receiving an ``Unknown Command```, you should be good to go, and you can then use any code editor, e.g. VSCode to edit your code, compile it with gcc and run it in terminal. 
+
+For example, assume we have the same ```C``` code named ```tutorial.c``` that simply prints the ```Hello Info-2!```. Then we can compile and run it with:
+
+``` bash 
+gcc tutorial.c -o tutorial // compile
+./tutorial // run
+```
+
+You should be able to see the following results:
+
+![](../images/install_mac_linux_2.png)
+
+If so, then you are good to go!
