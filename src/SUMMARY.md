@@ -6,7 +6,7 @@
 
 - [Installation](./tutorials/installation.md)
 
-# C/C++ Prerequisite
+# C Prerequisite
 
 - [Compiler](./prerequisite/compiler.md)
 
