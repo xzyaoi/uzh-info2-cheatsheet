@@ -10,9 +10,11 @@
 
 - [Compiler](./prerequisite/compiler.md)
 
+- [Functions](./prerequisite/functions.md)
+
 - [Strings](./prerequisite/strings.md)
 
-- [Input, Output and Files]()
+- [Input, Output and Files](./prerequisite/io.md)
 
 - [Arrays](./prerequisite/arrays.md)
   
