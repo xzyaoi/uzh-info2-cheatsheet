@@ -30,4 +30,6 @@
 
 # Algorithms
 
-- [Sorting]()
+- [Analysis](./algorithms/analysis.md)
+
+- [Sorting](./algorithms/sorting.md)
