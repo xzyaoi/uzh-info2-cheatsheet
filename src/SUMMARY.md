@@ -10,6 +10,8 @@
 
 - [Compiler](./prerequisite/compiler.md)
 
+- [Data type](./prerequisite/datatype.md)
+
 - [Functions](./prerequisite/functions.md)
 
 - [Strings](./prerequisite/strings.md)
