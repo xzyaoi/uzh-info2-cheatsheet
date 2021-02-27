@@ -26,10 +26,9 @@ Let's initialize an array of 4 integers(n = 4) as follows.
 ```c
 int A[] = {1, 2, 3, 4}
 ``` 
+ 
 
-with \\(n = 4\\). 
-
-Remember that the index of an array in C starts from \\(0\\). A loop from the first element to the last element is
+Remember that the index of an array in C starts from 0. A loop from the first element to the last element is
 
 ```c
 for(int i = 0; i <n; i++){

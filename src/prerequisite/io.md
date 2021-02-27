@@ -1,18 +1,25 @@
 # Input/Output
 
-To use the functions mentioned in this page, you must import the header file by ```#include<stdio.h>```.
+## printf function
+In C, printf is an format function that prints the output on the screen (standard output).  According to different data types in C, the 
+parameters in printf are different, see the examples below.  
+
+The the header file ```#include<stdio.h>``` needs to be included before use printf.
+
+Table 1: ```printf``` for basic data types.
+
+| data type        |  format        | example  |
+| ------------- |:-------------:| -----:|
+| ```int```     | ```%d``` |```int i = 10;``` <br> ```printf("%d", i);``` |
+| ```char```    | ```%c```    |  ```char c = "A";``` <br> ```printf("%c", c); ``` |
+|```char[]```   |  ```%s```  | ```char str[] = "Informatics-II"``` <br> ```printf("%s", str)``` |
 
 
-* ```scanf(p,...)```: reads ... args using format ```p```.
-* ```printf(p, ...)```: write ... args using format ```p```.
 
-The non-exhaustive formats are listed below:
 
-| No.  |   Char   |     Meaning     |
-| :--: | :------: | :-------------: |
-|  1   | ```%c``` |    Character    |
-|  2   | ```%d``` | Decimal integer |
-|  3   | ```%s``` |     String      |
-|  4   | ```\n``` |     Newline     |
-|  5   | ```\t``` |       Tab       |
+Table 2: The cursor control sequences for the printf command. 
 
+| data type        |  format        |
+| ------------- |:-------------:| 
+| ```\n``` |    carriage return|
+| ```\t``` |       tab      | 

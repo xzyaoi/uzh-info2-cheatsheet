@@ -1,11 +1,20 @@
 # Strings
 
+In C, there is no string data type. In practise, a string is an array of characters(char). 
+
 ## Termination Character
 
-The termination character for a string is ```'\0'```.
+A string is an array of characters with a terminating character ```'\0'```.
 
 ## Useful Functions
 
-Before using the following functions, you must import the header file by ```#include<string.h>```
-
-* ```strlen(s)```: return length of string; number of characters before the termination character.
+Assume that we have a string ```char str[]```. The following function ```int len(char str[])```calculates the length of a string. 
+```
+int len(char str[]) {
+    int i;
+    while(str[i] != '\0') {
+        i++;
+    }
+    return i;
+}
+```
