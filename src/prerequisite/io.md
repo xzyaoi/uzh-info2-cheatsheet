@@ -21,5 +21,5 @@ Table 2: The cursor control sequences for the printf command.
 
 | data type        |  format        |
 | ------------- |:-------------:| 
-| ```\n``` |    carriage return|
+| ```\n``` |    carriage return and newline|
 | ```\t``` |       tab      | 
