@@ -7,6 +7,7 @@ Linear Search -> O(n)
 Binary Search -> O(log(n))
 
 **Data Strucutres:**
+
 Stack : Push, Pop, Top -> O(1)
 
 Queue : Insert, Remove -> O(1)
@@ -27,6 +28,7 @@ Merge Sort -> O(n * log(n))
 Theoretical Limit for Comparison Based Sorting is O(n * log(n)). More cool things about sorting at [sorting](https://theartofmachinery.com/2019/01/05/sorting_is_nlogn.html)
 
 **Graph Theory:** V -> Vertices E -> Edges
+
 DFS, BFS -> Full Search is O(V+E)
 Djikstra -> Single Source SP is O((V+E)log(V))
 
