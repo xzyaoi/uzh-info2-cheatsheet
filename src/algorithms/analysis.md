@@ -30,6 +30,7 @@ Theoretical Limit for Comparison Based Sorting is O(n * log(n)). More cool thing
 **Graph Theory:** V -> Vertices E -> Edges
 
 DFS, BFS -> Full Search is O(V+E)
+
 Djikstra -> Single Source SP is O((V+E)log(V))
 
 **Dynamic Programming:**
