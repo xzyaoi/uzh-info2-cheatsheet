@@ -1,6 +1,6 @@
 # Algorithms Analysis
 
-**<u>Algorithms Complexity</u>**
+**<u>Complexity of Algorithms</u>**
 
 Linear Search -> O(n)
 
@@ -14,7 +14,7 @@ Queue : Insert, Remove -> O(1)
 
 Set, Hashmap: Insert, Contains -> O(1). Bad hashing functions could increase up to O(n)
 
-Binary Search Trees: Insert, Delete, Search -> O(n). In theory, it performs on average about O(log(n))
+Binary Search Trees: Insert, Delete, Search -> O(n). In theory, it usually performs a bit worse than O(log(n))
 
 Red Black Trees: Insert, Delete, Search O(log(n)), guarantee by the Red Black Property.
 
