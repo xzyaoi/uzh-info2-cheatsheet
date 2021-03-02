@@ -29,7 +29,7 @@ Make a and b the same data type.
 ```
 float a = 2.0;
 float b = 2.0;
-int c = a + b; 
+folat c = a + b; 
 ```
 ```
 int a = 2;
