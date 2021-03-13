@@ -16,7 +16,6 @@ The array ```A[]``` is a general way to describe an array, and this array contai
 what these n integer are.
  
 
-A loop from the first element to the last element of ```A[]``` is
 
 ### senario 2: ```A[0...n-1]```
 ```A[0...n-1]``` is equivalent to "an array of integer ```A[]``` with n integers ```0, 1, 2, ...., n - 1```". 
@@ -25,8 +24,8 @@ More specifically, ```A[1] = 0, A[2] = 1, A[n] = n- 1```. Remember that in pseud
 One more example, ```A[0...n]``` is an array of n + 1 integers ```0, 1, 2, ...., n - 1, n```. 
 
 
-For both senarios, the following Pseudocode visits elements of the array ```A[]``` from the beginning of the array to 
-the end. Note that the array ```A[]``` has to contain n elements. 
+For both senarios, the following Pseudocode visits elements of the array ```A[]``` or ```A[0...n-1]``` from the 
+beginning of the array to the end. Note that the array ```A``` has to contain n elements. 
 
 ```
 for(int i = 1; i <= n; i++){
