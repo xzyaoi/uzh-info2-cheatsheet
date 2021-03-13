@@ -14,3 +14,7 @@ Then we could run the executable file by ```./example.run```.
     * `-Wall` Enables all compiler warning messages.
     * `-pedantic` Compiler enforces the specified C standard pedantically. 
     * `-std=cxx` Specify a version of C/CPP (by replacing the xx) to compile against.
+
+### Example: 
+
+![helloworldgif](../images/helloworld.gif)
