@@ -20,7 +20,7 @@
 
 - [Arrays](./prerequisite/arrays.md)
   
-- [Pointers]()
+- [Pointers](./prerequisite/pointers.md)
 
 # Data Structures
 
