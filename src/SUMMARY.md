@@ -12,6 +12,8 @@
 
 - [Data type](./prerequisite/datatype.md)
 
+- [Operator](./prerequisite/operator.md)
+
 - [Functions](./prerequisite/functions.md)
 
 - [Strings](./prerequisite/strings.md)
