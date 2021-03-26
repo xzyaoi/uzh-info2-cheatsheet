@@ -20,13 +20,16 @@
 
 - [Input, Output and Files](./prerequisite/io.md)
 
-- [Arrays](./prerequisite/arrays.md)
   
 - [Pointers](./prerequisite/pointers.md)
 
 # Data Structures
 
+- [Arrays](datastructures/arrays.md)
+
 - [Linked Lists]()
+
+- [Stack](./datastructures/stack.md)
   
 - [Trees]()
   

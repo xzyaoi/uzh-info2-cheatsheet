@@ -16,7 +16,7 @@ division etc on numerical values (constants and variables).
 | / | division| 
 | % | remainder after division (modulo division)| 
 
-###example: Arithmetic Operators
+### example: Arithmetic Operators
 ```
 #include <stdio.h>
 int main()
@@ -57,7 +57,7 @@ Relational operators determine one condition is True(1) or False(0), usually use
 |>=|Greater than or equal to|  ```2 >= 8``` is evaluated to 0|
 |<=|	Less than or equal to|	```0 <= -4``` is evaluated to 0||
 
-###example: relational operators
+### example: relational operators
 ```
 #include <stdio.h>
 int main()
