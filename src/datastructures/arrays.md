@@ -11,20 +11,20 @@ We take an array of integer as examples. The following also works for arrays of 
 In tasks of exercises and exams, you might see the description like "an array of Integer ```A[]``` with n integers; 
 an array of Integer ```A[0...n-1]```".
  
-### senario 1: an array of integer ```A[]``` with n integers 
+### scenario 1: an array of integer ```A[]``` with n integers 
 The array ```A[]``` is a general way to describe an array, and this array contains n integers. However, we don't know
 what these n integer are.
  
 
 
-### senario 2: ```A[0...n-1]```
+### scenario 2: ```A[0...n-1]```
 ```A[0...n-1]``` is equivalent to "an array of integer ```A[]``` with n integers ```0, 1, 2, ...., n - 1```". 
 More specifically, ```A[1] = 0, A[2] = 1, A[n] = n- 1```. Remember that in pseudocode, position starts from 1.
 
 One more example, ```A[0...n]``` is an array of n + 1 integers ```0, 1, 2, ...., n - 1, n```. 
 
 
-For both senarios, the following Pseudocode visits elements of the array ```A[]``` or ```A[0...n-1]``` from the 
+For both scenario, the following Pseudocode visits elements of the array ```A[]``` or ```A[0...n-1]``` from the 
 beginning of the array to the end. Note that the array ```A``` has to contain n elements. 
 
 ```
