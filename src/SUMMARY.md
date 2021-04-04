@@ -31,7 +31,7 @@
 
 - [Stack](./datastructures/stack.md)
   
-- [Trees]()
+- [Trees](datastructures/trees.md)
   
 - [Graph]()
 
