@@ -5,7 +5,7 @@ In C, pointers are widely used to  access variables in memory. Basic concepts of
 
 ## Example
 
-```
+``` c
 #include <stdio.h>
  
 int main() 

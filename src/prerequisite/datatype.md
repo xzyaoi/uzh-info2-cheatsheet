@@ -15,7 +15,7 @@ some way to convert one data type to another, type casting is not suggested.
 
 ## Counterexample
 (1) mixed data type
-```
+``` c
 int a = 2;
 float b = 2.0;
 int c = a + b;
@@ -26,12 +26,13 @@ This is not suggested.
 
 Solution:
 Make a and b the same data type.
-```
+```c
 float a = 2.0;
 float b = 2.0;
 folat c = a + b; 
 ```
-```
+
+```c
 int a = 2;
 int b = 2;
 int c = a + b; 
