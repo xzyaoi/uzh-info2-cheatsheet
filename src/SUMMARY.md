@@ -32,6 +32,8 @@
 - [Stack](./datastructures/stack.md)
   
 - [Trees](datastructures/trees.md)
+
+- [Red black tree](datastructures/redblacktree.md)
   
 - [Graph]()
 
