@@ -1,4 +1,4 @@
-# red black tree
+# Red Black Trees
 
 This article clarifies what is taught about red black tree in the lecture.
 
