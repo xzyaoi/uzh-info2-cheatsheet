@@ -40,5 +40,5 @@ For implementation advice, I would suggest to brush up on pointers and look at E
 
 Red Black Trees:
 
-Self Balancing Binary search Trees, guarantee a search performance of O(log(n)). Look at slides for more detailed explanation.
+Self Balancing Binary search Trees, guarantee a search performance of O(log(n)). Look at slides and Red Black Tree section for further information
 
