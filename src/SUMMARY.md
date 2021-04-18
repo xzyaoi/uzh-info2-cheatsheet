@@ -35,7 +35,7 @@
 
 - [Red Black Trees](datastructures/redblacktree.md)
   
-- [Graph]()
+- [Graphs](datastructures/graphs.md)
 
 # Algorithms
 
