@@ -28,7 +28,7 @@ Graphs can be:
 
 Undirected Graphs : All edges are two way, so A to B with cost 3 means there is also a path from B to A with the same cost.
 
-Directed Graphs : Edges are one way, so A to B with cost 3 does not mean there is a path from B to A .
+Directed Graphs : Edges are one way, so A to B with cost 3 does not mean there is a path from B to A.
 
 Unweighted: Traversing through all edges has the same cost, commonly assumed to be 1.
 
