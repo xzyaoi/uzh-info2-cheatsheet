@@ -19,7 +19,9 @@ For example the graph drawn below
 Has the following parts.
 
 The underlying set for the Verticies set is the integers.
+
 The Vertices set = {1,2,3,4,5,6}
+
 The Edge set = {(6,4),(4,5),(4,3),(3,2),(5,2),(2,1),(5,1)}
 
 Graphs can be:
