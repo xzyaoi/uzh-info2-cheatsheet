@@ -12,6 +12,6 @@ taught in the lecture. For red black tree that you encounter in exercises and ex
  
 Further to understanding Binary Search Trees, I would reccomend first looking at the following 2 videos. Although some variations in the design and explanation, if you understand their properties and how they work, u will be able to understand the questions asked:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qvZGUFHWChY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qvZGUFHWChY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qA02XWRTBdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qA02XWRTBdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
