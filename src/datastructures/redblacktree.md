@@ -2,11 +2,16 @@
 
 This article clarifies what is taught about red black tree in the lecture.
 
+Red Black Trees is a form of self balancing Binary Search Trees, that any given time, has height at most 2log(n+ 1).
 
-## The root is black
+## The root is always Black.
 
-In this course, the root of a red black tree is always black. This is a property of the red black tree that is 
-taught in the lecture. For red black tree that you encounter in exercises and exams, the root is black.
+In this data structure, the root of a Red Black Tree is always black. This is a property of the red black tree that is 
+taught in the lecture. For red black tree that you encounter in exercises and exams, the root is must always be black to be valid.
 
  
+Further to understanding Binary Search Trees, I would reccomend first looking at the following 2 videos. Although some variations in the design and explanation, if you understand their properties and how they work, u will be able to understand the questions asked:
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qvZGUFHWChY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qA02XWRTBdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
