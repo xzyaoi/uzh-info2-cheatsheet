@@ -33,7 +33,7 @@
   
 - [Trees](datastructures/trees.md)
 
-- [Red black tree](datastructures/redblacktree.md)
+- [Red Black Trees](datastructures/redblacktree.md)
   
 - [Graph]()
 
