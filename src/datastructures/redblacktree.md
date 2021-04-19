@@ -14,6 +14,3 @@ Further to understanding Binary Search Trees, I would reccomend first looking at
 Initial reccomended videos (combined with lecture material):
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qvZGUFHWChY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qA02XWRTBdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
