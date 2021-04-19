@@ -20,8 +20,9 @@
 
 - [Input, Output and Files](./prerequisite/io.md)
 
-  
 - [Pointers](./prerequisite/pointers.md)
+
+- [Malloc and Pointers](./prerequisite/malloc.md)
 
 # Data Structures
 
@@ -30,7 +31,7 @@
 - [Linked Lists]()
 
 - [Stack](./datastructures/stack.md)
-  
+
 - [Trees](datastructures/trees.md)
 
 - [Red Black Trees](datastructures/redblacktree.md)
