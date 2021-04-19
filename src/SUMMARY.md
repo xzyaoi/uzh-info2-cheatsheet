@@ -31,10 +31,13 @@
 - [Linked Lists]()
 
 - [Stack](./datastructures/stack.md)
+
 - [Trees](datastructures/trees.md)
 
-- [Red black tree](datastructures/redblacktree.md)
-- [Graph]()
+- [Red Black Trees](datastructures/redblacktree.md)
+  
+- [Graphs](datastructures/graphs.md)
+
 
 # Algorithms
 
