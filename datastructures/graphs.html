@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Graphs - Informatics - 2 Cheatsheet at University of Zurich</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../favicon.png">
+        
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../preface.html"><strong aria-hidden="true">1.</strong> Preface</a></li><li class="chapter-item expanded affix "><li class="part-title">Tutorials</li><li class="chapter-item expanded "><a href="../tutorials/installation.html"><strong aria-hidden="true">2.</strong> Installation</a></li><li class="chapter-item expanded affix "><li class="part-title">C Prerequisite</li><li class="chapter-item expanded "><a href="../prerequisite/compiler.html"><strong aria-hidden="true">3.</strong> Compiler</a></li><li class="chapter-item expanded "><a href="../prerequisite/datatype.html"><strong aria-hidden="true">4.</strong> Data type</a></li><li class="chapter-item expanded "><a href="../prerequisite/operator.html"><strong aria-hidden="true">5.</strong> Operator</a></li><li class="chapter-item expanded "><a href="../prerequisite/functions.html"><strong aria-hidden="true">6.</strong> Functions</a></li><li class="chapter-item expanded "><a href="../prerequisite/strings.html"><strong aria-hidden="true">7.</strong> Strings</a></li><li class="chapter-item expanded "><a href="../prerequisite/io.html"><strong aria-hidden="true">8.</strong> Input, Output and Files</a></li><li class="chapter-item expanded "><a href="../prerequisite/pointers.html"><strong aria-hidden="true">9.</strong> Pointers</a></li><li class="chapter-item expanded "><a href="../prerequisite/malloc.html"><strong aria-hidden="true">10.</strong> Malloc and Pointers</a></li><li class="chapter-item expanded affix "><li class="part-title">Data Structures</li><li class="chapter-item expanded "><a href="../datastructures/arrays.html"><strong aria-hidden="true">11.</strong> Arrays</a></li><li class="chapter-item expanded "><a href="../datastructures/stack.html"><strong aria-hidden="true">12.</strong> Stack</a></li><li class="chapter-item expanded "><a href="../datastructures/trees.html"><strong aria-hidden="true">13.</strong> Trees</a></li><li class="chapter-item expanded "><a href="../datastructures/redblacktree.html"><strong aria-hidden="true">14.</strong> Red Black Trees</a></li><li class="chapter-item expanded "><a href="../datastructures/graphs.html" class="active"><strong aria-hidden="true">15.</strong> Graphs</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithms</li><li class="chapter-item expanded "><a href="../algorithms/analysis.html"><strong aria-hidden="true">16.</strong> Analysis</a></li><li class="chapter-item expanded "><a href="../algorithms/sorting.html"><strong aria-hidden="true">17.</strong> Sorting</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Informatics - 2 Cheatsheet at University of Zurich</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="graphs"><a class="header" href="#graphs">Graphs</a></h1>
+<p>Within this section, few further explanations will be added to aid in the understanding of Graphs as part of this module. </p>
+<p>A visualisation that personally helps me to understand graphs is imagining vertices as  physical locations and the edge cost to be the time distance between them(so a form of a map for example).</p>
+<p>Most graphs are defined as a slight alteration of the following rules.</p>
+<p>A graph is made up of two sets called Vertices and Edges.
+The Verticies are drawn from some underlying type, and the set may be finite or infinite.
+Each element of the Edge set is a pair consisting of two elements from the Vertices set.
+Graphs are often depicted visually, by drawing the elements of the Vertices set as boxes or circles, and drawing the elements of the edge set as lines or arcs between the boxes or circles. There is an arc between v1 and v2 if (v1,v2) is an element of the Edge set.
+Adjacency. If (u,v) is in the edge set we say u is adjacent to v (which we sometimes write as u ~ v).</p>
+<p>For example the graph drawn below</p>
+<p><img src="https://user-images.githubusercontent.com/32796571/115149941-90b7b900-a066-11eb-9a20-25ccb14523c5.png" alt="image" /></p>
+<p>Has the following parts.</p>
+<p>The underlying set for the Verticies set is the integers.</p>
+<p>The Vertices set = {1,2,3,4,5,6}</p>
+<p>The Edge set = {(6,4),(4,5),(4,3),(3,2),(5,2),(2,1),(5,1)}</p>
+<p>Graphs can be:</p>
+<p>Undirected Graphs : All edges are two way, so A to B with cost 3 means there is also a path from B to A with the same cost.</p>
+<p>Directed Graphs : Edges are one way, so A to B with cost 3 does not mean there is a path from B to A.</p>
+<p>Unweighted: Traversing through all edges has the same cost, commonly assumed to be 1.</p>
+<p>Weighted: There is a cost for traversal for each edge, hence from traversal from A to B the cost of traversal is equal to the weight of that edge and possibly a different weight from B to C.</p>
+<p>Common Problems in Graph Theory (Mentioned in the lecture):</p>
+<p>Connectivity: If C is reachable from A. Solved by graph traversal algorithms, BFS or DFS.</p>
+<p>Shortest Path(and multiple variations): Lowest total cost to C from A. Solved by shortest path algorithms (Djikstra for example). For Unweighted graphs BFS can also be used.</p>
+<p>Minimum Spanning Tree: Connect all the vertices with edges with the minimum total weight(edge cost). Solved with Kruskal or Prim Algorithms.</p>
+<p>There are a lot of resources available both in the lecture and online for these kind of problems and examples of what can be represented through a graph.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../datastructures/redblacktree.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../algorithms/analysis.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../datastructures/redblacktree.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../algorithms/analysis.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
