@@ -2,43 +2,43 @@
 
 Trees in Computer Science is reversed to what we know. The Root sits at the top, while the leaves are in the bottom.
 
-On a more technical definition:
-A tree is a collection of entities called nodes. Nodes are connected by edges. Each node typically contains a value and it may or may not have a child node. Tree nodes are 1 or more of the following:
-* Root - The start of the tree, visualised at the top.
-* Parent - A parent node, connecting to atleast 1 or more children.
-* Child - A child node, has exactly one parent.
-* Leaf node - A leaf node is one that does not have any children.
 
 # Binary Trees(BT)
 
-A Binary Tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. 
-Binary trees are often used to solve problems efficienctly. 
+A Binary Tree is a tree data structure in which each node has at most two children that are referred to as the left 
+child and the right child. 
+
+Each node in the binary tree has an integer value. However, all values in a binary tree are not sorted. Next, you will 
+see the binary search tree that values of all nodes are sorted in some way.
+
 
 # Binary Search Trees(BST)
-A Binary Tree with an extra property:
-The right child is always greater or equal to the parent whilst the left child is always less than the parent.
-Let's look at an example:
+A Binary Tree with the following properties:
 
-![image](https://user-images.githubusercontent.com/32796571/113524372-7da8e180-95ae-11eb-96eb-66efb25aea2d.png)
+1. Let x be a node in a binary tree.
+2. If y is a node in the left subtree of x then y.key ≤ x→key
+3. If y is a node in the right subtree of x then x→key ≤ y.key
 
-As we can see, this is the tree form. Root on top, parents connected to their childs. Binary tree property that each node has up to two children.
-Finally, we see the important property of Binary Search Trees: the parent is always greater than it's left child and less or equal to it's right child (ex. 17 > 16, 17 <= 20).
+Let's look at an example of a binary search tree:
 
-So how is this property used? Very simply, to efficiently search for a specific value in the datastructure. If we are looking in our example for 16, we set the current to the root and we keep traversing based on whether our desired destination is smaller or larger than the current.
-Hence, looking for 20 would be done in the following steps:
-1. Root is 13, current is 13.
-2. 13 is less than 20, go right. Current -> 23
-3. 23 is more than 20, go left. Current -> 17
-4. 17 is more than 16, go right. Current -> 16
-5. Current is 16, our desired position.
+![image](../images/example_BST.png)
 
-This form of search is done on average in O(log(N)) time, way faster than linearly searching through them. This of course relies on the balance of the tree, as in the worst case, the Tree ends up being a Linked List and searching through is O(n).
+## search in a binary tree
+We use the properties of a binary search for searching an element, i.e. an integer.
+The search starts from the root and the search goes to either the left subtree or the right subtree based on the key.
 
-Implementation:
+Example, search 20 in the binary tree above.
+1. Root is the node with key 13.
+2. Key 13 is less than 20, go to the right subtree. The key of the right subtree is 23.
+3. Key 23 is more than 20, go to the left subtree. The key of the left subtree is 17. 
+4. Key 17 is more than 16, go to the right subtree. The key of the right subtree is 16
+5. Search is done. Alternatively, the search is done without finding the 16 if there is no subtree to be explored.
 
-For implementation advice, I would suggest to brush up on pointers and look at Exercise 8 solutions whilst keep visualising the steps on a BST.
+There is no guarantee for the search in a binary search tree, because we don't know the height of a binary search tree,
+which could be N for the worst case, where N is the number of items in the binary search tree.
 
 Red Black Trees:
 
-Self Balancing Binary search Trees, guarantee a search performance of O(log(n)). Look at slides and Red Black Tree section for further information
+Self Balancing Binary search Trees, guarantee a search performance of O(log(n)). Look at slides and Red Black Tree 
+section for further information
 
