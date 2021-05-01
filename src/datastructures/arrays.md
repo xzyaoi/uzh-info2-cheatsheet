@@ -27,7 +27,7 @@ One more example, ```A[0...n]``` is an array of n + 1 integers ```0, 1, 2, ....,
 For both scenario, the following Pseudocode visits elements of the array ```A[]``` or ```A[0...n-1]``` from the 
 beginning of the array to the end. Note that the array ```A``` has to contain n elements. 
 
-```
+``` c
 for(int i = 1; i <= n; i++){
 	num = A[i] #access the element at position i.
 }
@@ -47,7 +47,7 @@ int A[] = {1, 2, 3, 4}
 
 Remember that the index of an array in C starts from 0. A loop from the first element to the last element is
 
-```c
+``` c
 for(int i = 0; i <n; i++){
 	int num = A[i] // access the element at index i.
 }

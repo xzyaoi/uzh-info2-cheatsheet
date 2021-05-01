@@ -12,7 +12,7 @@ t = t+1;
 It is assumed that the stack S is a global variable, so S is not a paramater of push function. 
 
 In C, Algo: push(x) is implemented as follows.
-```
+``` c
 #include <stdio.h>
  
 /* global variable declaration */
