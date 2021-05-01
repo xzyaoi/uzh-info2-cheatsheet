@@ -28,8 +28,6 @@
 
 - [Arrays](datastructures/arrays.md)
 
-- [Linked Lists]()
-
 - [Stack](./datastructures/stack.md)
 
 - [Trees](datastructures/trees.md)
