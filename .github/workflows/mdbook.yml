@@ -19,7 +19,6 @@ jobs:
         with:
           mdbook-version: 'latest'
       - run: cargo install mdbook-katex
-      - run: cargo install-update -a
       - run: mdbook build
 
       - name: Deploy
