@@ -42,3 +42,7 @@
 - [Analysis](./algorithms/analysis.md)
 
 - [Sorting](./algorithms/sorting.md)
+
+# MISC
+
+- [Pseudocode](./misc/psuedocode.md)
