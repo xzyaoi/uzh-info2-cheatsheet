@@ -45,4 +45,4 @@
 
 # MISC
 
-- [Pseudocode](./misc/psuedocode.md)
+- [Pseudocode](./misc/pseudocode.md)
