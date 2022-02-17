@@ -50,7 +50,7 @@ Relational operators determine one condition is True(1) or False(0), usually use
 
 | Operator        | Meaning of Operator| Example| 
 | ------------- |:-------------:|:-------------:|  
-|==| equal|```1 == 1```  is evaluated to 0 |
+|==| equal|```1 == 1```  is evaluated to 1 |
 | \> |greater than |int a; int b; a > b |
 |\<	|Less than|	```2 < 4``` is evaluated to 1|
 |!=| Not equal to|```7 != 2``` is evaluated to 1|
