@@ -143,15 +143,13 @@ It is important to learn this difference, and you need to be careful about this 
 <p>We take an array of integer as examples. The following also works for arrays of character, double numebr etc.</p>
 <h2 id="an-array-of-integers-in-pseudocode"><a class="header" href="#an-array-of-integers-in-pseudocode">An array of integers in Pseudocode</a></h2>
 <p>In tasks of exercises and exams, you might see the description like &quot;an array of Integer <code>A[]</code> with n integers; 
-an array of Integer <code>A[0...n-1]</code>&quot;.</p>
+an array of Integer <code>A[1..n]</code>&quot;.</p>
 <h3 id="scenario-1-an-array-of-integer-a-with-n-integers"><a class="header" href="#scenario-1-an-array-of-integer-a-with-n-integers">scenario 1: an array of integer <code>A[]</code> with n integers</a></h3>
 <p>The array <code>A[]</code> is a general way to describe an array, and this array contains n integers. However, we don't know
 what these n integer are.</p>
-<h3 id="scenario-2-a0n-1"><a class="header" href="#scenario-2-a0n-1">scenario 2: <code>A[0...n-1]</code></a></h3>
-<p><code>A[0...n-1]</code> is equivalent to &quot;an array of integer <code>A[]</code> with n integers <code>0, 1, 2, ...., n - 1</code>&quot;. 
-More specifically, <code>A[1] = 0, A[2] = 1, A[n] = n- 1</code>. Remember that in pseudocode, position starts from 1.</p>
-<p>One more example, <code>A[0...n]</code> is an array of n + 1 integers <code>0, 1, 2, ...., n - 1, n</code>. </p>
-<p>For both scenario, the following Pseudocode visits elements of the array <code>A[]</code> or <code>A[0...n-1]</code> from the 
+<h3 id="scenario-2-a1n"><a class="header" href="#scenario-2-a1n">scenario 2: <code>A[1..n]</code></a></h3>
+<p><code>A[1..n]</code> is equivalent to &quot;an array of integer <code>A[]</code> with n integers. Remember that in pseudocode, position starts from 1.</p>
+<p>For both scenario, the following Pseudocode visits elements of the array <code>A[]</code> or <code>A[1..n]</code> from the 
 beginning of the array to the end. Note that the array <code>A</code> has to contain n elements. </p>
 <pre><code class="language-c">for(int i = 1; i &lt;= n; i++){
 	num = A[i] #access the element at position i.
